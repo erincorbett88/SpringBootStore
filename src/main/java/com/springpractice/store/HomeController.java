@@ -16,4 +16,5 @@ public class HomeController {
         //this method returns a string that is the name of the template file that should be used to render the response
         //in other words, this is the name of the view that should be returned to the browser
     }
+
 }
