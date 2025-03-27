@@ -1,4 +1,4 @@
-package com.springpractice.store;
+package com.springpractice.store.paymentApp;
 
 import org.springframework.stereotype.Service;
 

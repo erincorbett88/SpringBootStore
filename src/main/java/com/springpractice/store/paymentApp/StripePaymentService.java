@@ -1,10 +1,7 @@
-package com.springpractice.store;
+package com.springpractice.store.paymentApp;
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-
-import java.sql.SQLOutput;
 
 @Primary
 @Service("stripe")
