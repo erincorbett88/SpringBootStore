@@ -1,8 +1,6 @@
-package com.springpractice.store.paymentApp;
+package com.springpractice.store;
 
-import org.springframework.stereotype.Service;
-
-@Service("paypal")
+//@Service("paypal")
 public class PaypalPaymentService implements PaymentService {
     @Override
     public void processPayment(double amount) {

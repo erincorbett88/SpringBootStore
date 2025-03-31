@@ -1,4 +1,4 @@
-package com.springpractice.store.paymentApp;
+package com.springpractice.store;
 
 public interface PaymentService {
     void processPayment(double amount);
