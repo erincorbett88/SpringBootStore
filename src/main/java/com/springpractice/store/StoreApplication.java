@@ -1,6 +1,7 @@
 package com.springpractice.store;
 
 import com.springpractice.store.entitites.Address;
+import com.springpractice.store.entitites.Profile;
 import com.springpractice.store.entitites.Tag;
 import com.springpractice.store.entitites.User;
 import org.springframework.boot.SpringApplication;
@@ -15,9 +16,11 @@ public class StoreApplication {
 
         var user = User.builder().name("John Doe").email("jdoe@gmail.com").password("password123").build();
 
-
-        user.addTag("tag1");
-
+        var profile = Profile.builder()
+                .bio("Software Engineer")
+                .build();
+        profile.setUser(user);
+        user.setProfile(profile);
         System.out.println(user);
 
 
