@@ -12,16 +12,16 @@ import org.springframework.context.ApplicationContext;
 public class StoreApplication {
 
     public static void main(String[] args) {
-//        ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
+        ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
 
-        var user = User.builder().name("John Doe").email("jdoe@gmail.com").password("password123").build();
-
-        var profile = Profile.builder()
-                .bio("Software Engineer")
-                .build();
-        profile.setUser(user);
-        user.setProfile(profile);
-        System.out.println(user);
+//        var user = User.builder().name("John Doe").email("jdoe@gmail.com").password("password123").build();
+//
+//        var profile = Profile.builder()
+//                .bio("Software Engineer")
+//                .build();
+//        profile.setUser(user);
+//        user.setProfile(profile);
+//        System.out.println(user);
 
 
     }
